@@ -152,8 +152,8 @@ a{
     height: 40px;
     padding-top: 17px;
     flex-direction: row;
-    width: 10%;
-    padding-left: 429px;
+    width: 100%;
+    justify-content: flex-end;
 
 }
 .preview_nav_text span{
