@@ -126,7 +126,7 @@ a{
 }
 .preview_nav_text{
 
-    width: 45%;
+    width: 50%;
     padding-top: 50px;
     padding-right: 80px;
     display: flex;
@@ -149,7 +149,7 @@ a{
     padding-top: 17px;
     flex-direction: row;
     width: 10%;
-    padding-left: 250px;
+    padding-left: 429px;
 
 }
 .preview_nav_text span{
