@@ -449,14 +449,16 @@ a{
 }
 .under_info_main{
 
+    display: flex;
     width: 80%;
     height: auto;
     margin: auto;
+    justify-content: space-between;
 
 }
 .under_info_first{
 
-    width: 60%;
+    width: 55%;
     height: auto;
 }
 .under_text_d{
@@ -477,6 +479,7 @@ a{
 .under_info_second{
 
     display: flex;
+    margin: 0;
 }
 .second_under_info_text p{
 
@@ -487,6 +490,9 @@ a{
 .second_under_info_text{
 
     width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
 }
 .third_under_info_text{
 
@@ -523,4 +529,25 @@ a{
     line-height: 1.5;
     border-radius: .25rem;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.under_info_second_s{
+
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+}
+.second_under_info_text_t{
+
+    width: 80%;
+}
+.second_under_info_text_t p{
+
+    font-size: 11px;
+    font-family: Calibri;
+}
+.unick_b{
+
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
 }
