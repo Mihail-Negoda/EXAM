@@ -8,17 +8,18 @@
     <title>Единый центр записи</title>
     <link rel="stylesheet" href="style.css" media="screen">
     <link rel="stylesheet" href="font.css" media="screen">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
     <div class="content">
         <section class="main_head">
             <header class="header">
                 <div class="container container_home">
-                        <aside class="header_logo"><div><a href="#"><img src="img/mrt_logo.png" width="70px" height="70px" alt="Эмблема компании"></a></div>
-                            <span class="header_logo_center"><a href="#"><b>Единый<br>Центр Записи</b></a></span>
+                        <aside class="header_logo"><div class="header_l"><a href="#"><img src="img/mrt_logo.png" width="70px" height="70px" alt="Эмблема компании"></a>
+                            <span class="header_logo_center"><b>Единый<br>Центр Записи</b></span></div>
                         </aside>
                         <nav class="menu_header">
-                            <div class="phone_logo"><img src="img/phone_logo.png" height="55px"><p><b>80300&nbsp5000</b></p></div>
+                            <div class="phone_logo"><div class="phone_logo_I"><img src="img/phone_logo.png" height="55px"><p><b>80300&nbsp5000</b></p></div></div>
                             <ul class="menu_list">
                                 <li class="menu_item">
                                     <a class="menu_link menu_link_main" href="#">Главная</a>
@@ -89,11 +90,467 @@
         </section>
         <section class="info_blog">
             <div class="info_blog_main">
+                <div class="list_bar">
+                    <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">МРТ</a>
+                            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">КТ</a>
+                            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">РЕНТГЕН ИСЛЕДОВАНИЯ</a>
+                        </div>
+                    </nav>
+                    <div class="main_border">
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                <!-- ПЕРВЫЙ БЛОК -->
+                                <div class="blog_information">
+                                    <div class="blog_information_box">
+                                        <div class="blog_information_content">
+                                            <div class="blog_information_box_info"><div><img src="img/Logo_main.png" width="170px"></div>
+                                            <div class="blog_information_box_info_name">
+                                                <p><b>Название клиники</b></p>
+                                                <p class="lenin">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                            </div>
+                                            </div>
+                                            <div class="blog_information_second_box">
+                                            <p>Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                                дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                                как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                                увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...
+                                            </p>
+                                            </div>
+                                            <div class="blog_information_second_box_footer">
+                                                <div class="footer_n"><b>Наш номер: +3856 0 99 66 65</b></div>
+                                                <div><button type="button" class="btnn">Заказать звонок</button></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="blog_information_box">
+                                        <div class="blog_information_content">
+                                            <div class="blog_information_box_info"><div><img src="img/Logo_main.png" width="170px"></div>
+                                                <div class="blog_information_box_info_name">
+                                                    <p><b>Название клиники</b></p>
+                                                    <p class="lenin">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                                </div>
+                                            </div>
+                                            <div class="blog_information_second_box">
+                                                <p>Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                                    дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                                    как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                                    увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...
+                                                </p>
+                                            </div>
+                                            <div class="blog_information_second_box_footer">
+                                                <div class="footer_n"><b>Наш номер: +3856 0 99 66 65</b></div>
+                                                <div><button type="button" class="btnn">Заказать звонок</button></div>
+                                            </div></div></div>
+                                </div>
+                                <!-- ВТОРОЙ БЛОК -->
+                                <div class="blog_information">
+                                    <div class="blog_information_box">
+                                        <div class="blog_information_content">
+                                            <div class="blog_information_box_info"><div><img src="img/Logo_main.png" width="170px"></div>
+                                                <div class="blog_information_box_info_name">
+                                                    <p><b>Название клиники</b></p>
+                                                    <p class="lenin">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                                </div>
+                                            </div>
+                                            <div class="blog_information_second_box">
+                                                <p>Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                                    дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                                    как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                                    увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...
+                                                </p>
+                                            </div>
+                                            <div class="blog_information_second_box_footer">
+                                                <div class="footer_n"><b>Наш номер: +3856 0 99 66 65</b></div>
+                                                <div><button type="button" class="btnn">Заказать звонок</button></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="blog_information_box">
+                                        <div class="blog_information_content">
+                                            <div class="blog_information_box_info"><div><img src="img/Logo_main.png" width="170px"></div>
+                                                <div class="blog_information_box_info_name">
+                                                    <p><b>Название клиники</b></p>
+                                                    <p class="lenin">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                                </div>
+                                            </div>
+                                            <div class="blog_information_second_box">
+                                                <p>Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                                    дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                                    как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                                    увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...
+                                                </p>
+                                            </div>
+                                            <div class="blog_information_second_box_footer">
+                                                <div class="footer_n"><b>Наш номер: +3856 0 99 66 65</b></div>
+                                                <div><button type="button" class="btnn">Заказать звонок</button></div>
+                                            </div></div></div>
+                                    </div>
 
+                                <!-- ТРЕТИЙ БЛОК -->
+                                <div class="blog_information">
+                                    <div class="blog_information_box">
+                                        <div class="blog_information_content">
+                                            <div class="blog_information_box_info"><div><img src="img/Logo_main.png" width="170px"></div>
+                                                <div class="blog_information_box_info_name">
+                                                    <p><b>Название клиники</b></p>
+                                                    <p class="lenin">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                                </div>
+                                            </div>
+                                            <div class="blog_information_second_box">
+                                                <p>Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                                    дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                                    как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                                    увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...
+                                                </p>
+                                            </div>
+                                            <div class="blog_information_second_box_footer">
+                                                <div class="footer_n"><b>Наш номер: +3856 0 99 66 65</b></div>
+                                                <div><button type="button" class="btnn">Заказать звонок</button></div>
 
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="blog_information_box">
+                                        <div class="blog_information_content">
+                                            <div class="blog_information_box_info"><div><img src="img/Logo_main.png" width="170px"></div>
+                                                <div class="blog_information_box_info_name">
+                                                    <p><b>Название клиники</b></p>
+                                                    <p class="lenin">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                                </div>
+                                            </div>
+                                            <div class="blog_information_second_box">
+                                                <p>Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                                    дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                                    как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                                    увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...
+                                                </p>
+                                            </div>
+                                            <div class="blog_information_second_box_footer">
+                                                <div class="footer_n"><b>Наш номер: +3856 0 99 66 65</b></div>
+                                                <div><button type="button" class="btnn">Заказать звонок</button></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                <!-- ПЕРВЫЙ БЛОК -->
+                                <div class="blog_information">
+                                    <div class="blog_information_box">
+                                        <div class="blog_information_content">
+                                            <div class="blog_information_box_info"><div><img src="img/Logo_main.png" width="170px"></div>
+                                                <div class="blog_information_box_info_name">
+                                                    <p><b>Название клиники</b></p>
+                                                    <p class="lenin">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                                </div>
+                                            </div>
+                                            <div class="blog_information_second_box">
+                                                <p>Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                                    дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                                    как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                                    увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...
+                                                </p>
+                                            </div>
+                                            <div class="blog_information_second_box_footer">
+                                                <div class="footer_n"><b>Наш номер: +3856 0 99 66 65</b></div>
+                                                <div><button type="button" class="btnn">Заказать звонок</button></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="blog_information_box">
+                                        <div class="blog_information_content">
+                                            <div class="blog_information_box_info"><div><img src="img/Logo_main.png" width="170px"></div>
+                                                <div class="blog_information_box_info_name">
+                                                    <p><b>Название клиники</b></p>
+                                                    <p class="lenin">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                                </div>
+                                            </div>
+                                            <div class="blog_information_second_box">
+                                                <p>Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                                    дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                                    как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                                    увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...
+                                                </p>
+                                            </div>
+                                            <div class="blog_information_second_box_footer">
+                                                <div class="footer_n"><b>Наш номер: +3856 0 99 66 65</b></div>
+                                                <div><button type="button" class="btnn">Заказать звонок</button></div>
+                                            </div></div></div>
+                                </div>
+                                <!-- ВТОРОЙ БЛОК -->
+                                <div class="blog_information">
+                                    <div class="blog_information_box">
+                                        <div class="blog_information_content">
+                                            <div class="blog_information_box_info"><div><img src="img/Logo_main.png" width="170px"></div>
+                                                <div class="blog_information_box_info_name">
+                                                    <p><b>Название клиники</b></p>
+                                                    <p class="lenin">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                                </div>
+                                            </div>
+                                            <div class="blog_information_second_box">
+                                                <p>Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                                    дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                                    как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                                    увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...
+                                                </p>
+                                            </div>
+                                            <div class="blog_information_second_box_footer">
+                                                <div class="footer_n"><b>Наш номер: +3856 0 99 66 65</b></div>
+                                                <div><button type="button" class="btnn">Заказать звонок</button></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="blog_information_box">
+                                        <div class="blog_information_content">
+                                            <div class="blog_information_box_info"><div><img src="img/Logo_main.png" width="170px"></div>
+                                                <div class="blog_information_box_info_name">
+                                                    <p><b>Название клиники</b></p>
+                                                    <p class="lenin">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                                </div>
+                                            </div>
+                                            <div class="blog_information_second_box">
+                                                <p>Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                                    дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                                    как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                                    увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...
+                                                </p>
+                                            </div>
+                                            <div class="blog_information_second_box_footer">
+                                                <div class="footer_n"><b>Наш номер: +3856 0 99 66 65</b></div>
+                                                <div><button type="button" class="btnn">Заказать звонок</button></div>
+                                            </div></div></div>
+                                </div>
 
+                                <!-- ТРЕТИЙ БЛОК -->
+                                <div class="blog_information">
+                                    <div class="blog_information_box">
+                                        <div class="blog_information_content">
+                                            <div class="blog_information_box_info"><div><img src="img/Logo_main.png" width="170px"></div>
+                                                <div class="blog_information_box_info_name">
+                                                    <p><b>Название клиники</b></p>
+                                                    <p class="lenin">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                                </div>
+                                            </div>
+                                            <div class="blog_information_second_box">
+                                                <p>Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                                    дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                                    как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                                    увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...
+                                                </p>
+                                            </div>
+                                            <div class="blog_information_second_box_footer">
+                                                <div class="footer_n"><b>Наш номер: +3856 0 99 66 65</b></div>
+                                                <div><button type="button" class="btnn">Заказать звонок</button></div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="blog_information_box">
+                                        <div class="blog_information_content">
+                                            <div class="blog_information_box_info"><div><img src="img/Logo_main.png" width="170px"></div>
+                                                <div class="blog_information_box_info_name">
+                                                    <p><b>Название клиники</b></p>
+                                                    <p class="lenin">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                                </div>
+                                            </div>
+                                            <div class="blog_information_second_box">
+                                                <p>Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                                    дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                                    как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                                    увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...
+                                                </p>
+                                            </div>
+                                            <div class="blog_information_second_box_footer">
+                                                <div class="footer_n"><b>Наш номер: +3856 0 99 66 65</b></div>
+                                                <div><button type="button" class="btnn">Заказать звонок</button></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                                <!-- ПЕРВЫЙ БЛОК -->
+                                <div class="blog_information">
+                                    <div class="blog_information_box">
+                                        <div class="blog_information_content">
+                                            <div class="blog_information_box_info"><div><img src="img/Logo_main.png" width="170px"></div>
+                                                <div class="blog_information_box_info_name">
+                                                    <p><b>Название клиники</b></p>
+                                                    <p class="lenin">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                                </div>
+                                            </div>
+                                            <div class="blog_information_second_box">
+                                                <p>Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                                    дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                                    как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                                    увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...
+                                                </p>
+                                            </div>
+                                            <div class="blog_information_second_box_footer">
+                                                <div class="footer_n"><b>Наш номер: +3856 0 99 66 65</b></div>
+                                                <div><button type="button" class="btnn">Заказать звонок</button></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="blog_information_box">
+                                        <div class="blog_information_content">
+                                            <div class="blog_information_box_info"><div><img src="img/Logo_main.png" width="170px"></div>
+                                                <div class="blog_information_box_info_name">
+                                                    <p><b>Название клиники</b></p>
+                                                    <p class="lenin">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                                </div>
+                                            </div>
+                                            <div class="blog_information_second_box">
+                                                <p>Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                                    дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                                    как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                                    увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...
+                                                </p>
+                                            </div>
+                                            <div class="blog_information_second_box_footer">
+                                                <div class="footer_n"><b>Наш номер: +3856 0 99 66 65</b></div>
+                                                <div><button type="button" class="btnn">Заказать звонок</button></div>
+                                            </div></div></div>
+                                </div>
+                                <!-- ВТОРОЙ БЛОК -->
+                                <div class="blog_information">
+                                    <div class="blog_information_box">
+                                        <div class="blog_information_content">
+                                            <div class="blog_information_box_info"><div><img src="img/Logo_main.png" width="170px"></div>
+                                                <div class="blog_information_box_info_name">
+                                                    <p><b>Название клиники</b></p>
+                                                    <p class="lenin">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                                </div>
+                                            </div>
+                                            <div class="blog_information_second_box">
+                                                <p>Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                                    дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                                    как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                                    увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...
+                                                </p>
+                                            </div>
+                                            <div class="blog_information_second_box_footer">
+                                                <div class="footer_n"><b>Наш номер: +3856 0 99 66 65</b></div>
+                                                <div><button type="button" class="btnn">Заказать звонок</button></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="blog_information_box">
+                                        <div class="blog_information_content">
+                                            <div class="blog_information_box_info"><div><img src="img/Logo_main.png" width="170px"></div>
+                                                <div class="blog_information_box_info_name">
+                                                    <p><b>Название клиники</b></p>
+                                                    <p class="lenin">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                                </div>
+                                            </div>
+                                            <div class="blog_information_second_box">
+                                                <p>Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                                    дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                                    как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                                    увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...
+                                                </p>
+                                            </div>
+                                            <div class="blog_information_second_box_footer">
+                                                <div class="footer_n"><b>Наш номер: +3856 0 99 66 65</b></div>
+                                                <div><button type="button" class="btnn">Заказать звонок</button></div>
+                                            </div></div></div>
+                                </div>
+
+                                <!-- ТРЕТИЙ БЛОК -->
+                                <div class="blog_information">
+                                    <div class="blog_information_box">
+                                        <div class="blog_information_content">
+                                            <div class="blog_information_box_info"><div><img src="img/Logo_main.png" width="170px"></div>
+                                                <div class="blog_information_box_info_name">
+                                                    <p><b>Название клиники</b></p>
+                                                    <p class="lenin">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                                </div>
+                                            </div>
+                                            <div class="blog_information_second_box">
+                                                <p>Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                                    дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                                    как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                                    увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...
+                                                </p>
+                                            </div>
+                                            <div class="blog_information_second_box_footer">
+                                                <div class="footer_n"><b>Наш номер: +3856 0 99 66 65</b></div>
+                                                <div><button type="button" class="btnn">Заказать звонок</button></div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="blog_information_box">
+                                        <div class="blog_information_content">
+                                            <div class="blog_information_box_info"><div><img src="img/Logo_main.png" width="170px"></div>
+                                                <div class="blog_information_box_info_name">
+                                                    <p><b>Название клиники</b></p>
+                                                    <p class="lenin">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                                </div>
+                                            </div>
+                                            <div class="blog_information_second_box">
+                                                <p>Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                                    дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                                    как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                                    увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...
+                                                </p>
+                                            </div>
+                                            <div class="blog_information_second_box_footer">
+                                                <div class="footer_n"><b>Наш номер: +3856 0 99 66 65</b></div>
+                                                <div><button type="button" class="btnn">Заказать звонок</button></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer_button">
+                                <div class="footer_button_m">
+                                    <button type="button" class="btn_n btn_n-success">Все кабинеты</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="under_info">
+            <div class="under_info_main">
+                <div class="under_info_first">
+                    <div class="under_text_d"><p class="under_text">Последние статьи</p></div>
+                    <div class="under_info_second">
+                        <div class="nerv_img"><img src="img/under_info_ners.png"></div>
+                        <div class="second_under_info_text">
+                            <p>
+                                Что такое текст «рыба» знают все, кто работает с версткой журналов, дизайном и разработкой сайтов. Этот текст служит для демонстрации того, как контент впоследствии будет выглядеть на готовой странице, чтобы увидеть, прави льно ли размещаются абзацы, отступы, хорошо ли смотрятся шрифты. Такие рыбные тексты, как правило, не несут никако й смысловой нагрузки.
+                            </p>
+                            <p>
+                                На моменте создания макета у дизайнера нет готовых текстов, поэтому генерируется некий демонстрационный текст. Некоторые студии предпочитают писать такой текст самостоятельно, но чаще используются готовые тексты, созданные программой – генератором текста. Более того, у такого текста есть один неоспоримый плюс –
+                            </p>
+                        </div>
+                    </div>
+                    <div class="third_under_info_text">
+                        <div class="turn_buttons">
+                            <button type="button" class="turn_buttons_color butt">&#8592</button>
+                            <button type="button" class="turn_buttons_color butt">&#8594</button>
+
+                        </div>
+                        <div class="third_und_text"><button type="button" class="btnn">Читать подробнее</button></div>
+                    </div>
+
+                </div>
+
+                <div class="under_info_second">
+                </div>
             </div>
         </section>
     </div>
 </body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
 </html>
